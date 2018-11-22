@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Galego</title>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous"> <!--implements pure to style the buttons and panels-->
+		<link rel="stylesheet" href=main.css> <!--implements our css-->
+	</head>
+
+<div class="pure-menu pure-menu-horizontal" id="menu"> <!--this creates the top menu-->
+    <ul class="pure-menu-list">
+    	<li class="pure-menu-item"><a href="galician.html" class="pure-menu-link">Galician</a></li>
+        <li class="pure-menu-item"><a href="LanguageLearner.html" class="pure-menu-link">Main Menu</a></li>
+        <li class="pure-menu-item"><a href="swedish.html" class="pure-menu-link">Swedish</a></li>
+    </ul>
+</div>
+
+		<h1>O galego</h1>
+		<p><span class="bold">Vas aprender galego, unha das linguas m&aacute;is fermosas do mundo. O galego f&aacute;lase no noroeste de Espa&ntilde;a.</span> You're going to learn Galician, one of the most beautiful languages in the world. Galician is spoken in the northwest of Spain.</p>
+		<p><span class="bold">Queres aprender as cores ou os animais?</span> Do you want to learn colors or animals?</p>
+		<!--creates buttons that you can click on-->
+		<p><input type="button" class="pure-button" id="colors" value="Cores">
+		<input type="button" class="pure-button" id="animals" value="Animais">
+
+		<div class="panel panel-default" id="wrong">
+			<h5><span class="bold">Int&eacute;ntao de novo.</span> Try again.</h5>
+		</div>
+
+		<div class="panel panel-default" id="correct">
+			<h5><span class="bold">Correcto!</span> Correct!</h5>
+		</div>
+
+		<div class="panel panel-default" id="success">
+			<h5><span class="bold">Bo traballo! Completaste o exercicio! Clica men&uacute; principal para escoller un novo exercicio.</span> Good job! You have completed the exercise! Click main menu to choose a new exercise.</h5>
+		</div>
+
+		<div class="panel panel-default" id="question1">
+		  <div class="panel-heading">Primeira pregunta (First question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o vermello?         
+		  <audio controls> <!--adds audio-->
+			<source src="sounds/vermello.mp3" type="audio/mpeg">
+			</audio>
+			<!--adds images that can be clicked on-->
+			<p><input type="image" src="colors/orange-splash.png" id="orange1" width="300" height="300">
+			<input type="image" src="colors/red-splash.png" id="red1" width="300" height="300"></p>
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow1" width="300" height="300">
+			<input type="image" src="colors/blue-splash.png" id="blue1" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question2">
+		  <div class="panel-heading">Segunda pregunta (Second question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o negro?
+		  <audio controls>
+			<source src="sounds/negro.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow2" width="300" height="300">
+			<input type="image" src="colors/green-splash.png" id="green2" width="300" height="300"></p>
+			<p><input type="image" src="colors/white-splash.png" id="white2" width="300" height="300">
+			<input type="image" src="colors/black-splash.png" id="black2" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question3">
+		  <div class="panel-heading">Terceira pregunta (Third question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o amarelo?         
+		  <audio controls>
+			<source src="sounds/amarelo.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow3" width="300" height="300">
+			<input type="image" src="colors/white-splash.png" id="white3" width="300" height="300">
+			<p><input type="image" src="colors/blue-splash.png" id="blue3" width="300" height="300">
+			<input type="image" src="colors/red-splash.png" id="red3" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question4">
+		  <div class="panel-heading">Cuarta pregunta (Fourth question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o azul?         
+		  <audio controls>
+			<source src="sounds/azul.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/orange-splash.png" id="orange4" width="300" height="300">
+			<input type="image" src="colors/blue-splash.png" id="blue4" width="300" height="300">
+			<p><input type="image" src="colors/green-splash.png" id="green4" width="300" height="300">
+			<input type="image" src="colors/black-splash.png" id="black4" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question5">
+		  <div class="panel-heading">Quinta pregunta (Fifth question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o laranxa?         
+		  <audio controls>
+			<source src="sounds/laranxa.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/orange-splash.png" id="orange5" width="300" height="300">
+			<input type="image" src="colors/green-splash.png" id="green5" width="300" height="300"></p>
+			<p><input type="image" src="colors/red-splash.png" id="red5" width="300" height="300">
+			<input type="image" src="colors/white-splash.png" id="white5" width="300" height="300">
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question6">
+		  <div class="panel-heading">Sexta pregunta (Sixth question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o verde?         
+		  <audio controls>
+			<source src="sounds/verde.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/blue-splash.png" id="blue6" width="300" height="300">
+			<input type="image" src="colors/black-splash.png" id="black6" width="300" height="300">
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow6" width="300" height="300">
+			<input type="image" src="colors/green-splash.png" id="green6" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question7">
+		  <div class="panel-heading">S&eacute;tima pregunta (Seventh question):</div>
+		  <div class="panel-body">Cal destas cores &eacute; o branco?         
+		  <audio controls>
+			<source src="sounds/branco.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/red-splash.png" id="red7" width="300" height="300">
+			<input type="image" src="colors/white-splash.png" id="white7" width="300" height="300">
+			<p><input type="image" src="colors/blue-splash.png" id="blue7" width="300" height="300">
+			<input type="image" src="colors/orange-splash.png" id="orange7" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question8">
+		  <div class="panel-heading">Primeira pregunta (First question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; o can?         
+		  <audio controls>
+			<source src="sounds/can.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dog.png" id="dog1" width="300" height="300">
+			<input type="image" src="animals/bird.png" id="bird1" width="300" height="300"></p>
+			<p><input type="image" src="animals/dolphin.png" id="dolphin1" width="300" height="300">
+			<input type="image" src="animals/cow.png" id="cow1" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question9">
+		  <div class="panel-heading">Segunda pregunta (Second question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; o gato?
+		  <audio controls>
+			<source src="sounds/gato.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dolphin.png" id="dolphin2" width="300" height="300">
+			<input type="image" src="animals/fish.png" id="fish2" width="300" height="300"></p>
+			<p><input type="image" src="animals/cat.png" id="cat2" width="300" height="300">
+			<input type="image" src="animals/horse.png" id="horse2" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question10">
+		  <div class="panel-heading">Terceira pregunta (Third question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; o golfi&ntilde;o?         
+		  <audio controls>
+			<source src="sounds/golfiño.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dolphin.png" id="dolphin3" width="300" height="300">
+			<input type="image" src="animals/cat.png" id="cat3" width="300" height="300">
+			<p><input type="image" src="animals/cow.png" id="cow3" width="300" height="300">
+			<input type="image" src="animals/bird.png" id="bird3" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question11">
+		  <div class="panel-heading">Cuarta pregunta (Fourth question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; o cabalo?         
+		  <audio controls>
+			<source src="sounds/cabalo.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dog.png" id="dog4" width="300" height="300">
+			<input type="image" src="animals/cow.png" id="cow4" width="300" height="300">
+			<p><input type="image" src="animals/fish.png" id="fish4" width="300" height="300">
+			<input type="image" src="animals/horse.png" id="horse4" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question12">
+		  <div class="panel-heading">Quinta pregunta (Fifth question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; o pez?         
+		  <audio controls>
+			<source src="sounds/pez.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dog.png" id="dog5" width="300" height="300">
+			<input type="image" src="animals/fish.png" id="fish5" width="300" height="300"></p>
+			<p><input type="image" src="animals/bird.png" id="bird5" width="300" height="300">
+			<input type="image" src="animals/cat.png" id="cat5" width="300" height="300">
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question13">
+		  <div class="panel-heading">Sexta pregunta (Sixth question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; a vaca?         
+		  <audio controls>
+			<source src="sounds/vaca.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/cow.png" id="cow6" width="300" height="300">
+			<input type="image" src="animals/horse.png" id="horse6" width="300" height="300">
+			<p><input type="image" src="animals/dolphin.png" id="dolphin6" width="300" height="300">
+			<input type="image" src="animals/fish.png" id="fish6" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question14">
+		  <div class="panel-heading">S&eacute;tima pregunta (Seventh question):</div>
+		  <div class="panel-body">Cal destes animais &eacute; o paxaro?         
+		  <audio controls>
+			<source src="sounds/paxaro.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/bird.png" id="bird7" width="300" height="300">
+			<input type="image" src="animals/cat.png" id="cat7" width="300" height="300">
+			<p><input type="image" src="animals/cow.png" id="cow7" width="300" height="300">
+			<input type="image" src="animals/dog.png" id="dog7" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div> 
+
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script> <!--implements jQuery-->
+	<script type="text/javascript" src="js.js"></script> <!--implements our javascript file-->
+
+	</body>
+
+</html>
+

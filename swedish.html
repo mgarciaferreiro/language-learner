@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>svenska</title>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous"> <!--implements pure-->
+		<link rel="stylesheet" href=main.css> <!--implements our css-->
+	</head>
+
+<div class="pure-menu pure-menu-horizontal" id="menu"> <!--this creates the top menu-->
+    <ul class="pure-menu-list">
+    	<li class="pure-menu-item"><a href="galician.html" class="pure-menu-link">Galician</a></li>
+        <li class="pure-menu-item"><a href="LanguageLearner.html" class="pure-menu-link">Main Menu</a></li>
+        <li class="pure-menu-item"><a href="swedish.html" class="pure-menu-link">Swedish</a></li>
+    </ul>
+</div>
+
+		<h1>svenska</h1>
+		<p><span class="bold">Du ska l&auml;ra dig svenska, ett av de mest vackra spr&aring;ken i v&auml;rlden. Svenska talas f&ouml;r det mesta i Sverige, men talas &auml;ven i delar av Finland.</span> You're going to learn Swedish, one of the most beautiful languages in the world. Swedish is mostly spoken in Sweden, but is also spoken in parts of Finland.</p>
+		<p><span class="bold">Vill du l&auml;ra dig f&auml;rger eller djur?</span> Do you want to learn colors or animals?)</p>
+		<!--creates buttons that you can click on-->
+		<p><input type="button" class="pure-button" id="colors" value="F&auml;rger">
+		<input type="button" class="pure-button" id="animals" value="Djur">
+
+		<div class="panel panel-default" id="wrong">
+			<h5><span class="bold">F&ouml;rs&ouml;k igen.</span> Try again.</h5>
+		</div>
+
+		<div class="panel panel-default" id="correct">
+			<h5><span class="bold">R&auml;tt!</span> Correct!</h5>
+		</div>
+
+		<div class="panel panel-default" id="success">
+			<h5><span class="bold">Bra jobbat! Du har nu avslutat denna &ouml;vning. Klicka p&aring; menyn f&ouml;r att v&auml;lja en ny &ouml;vning.</span> Good job! You have completed the exercise! Click main menu to choose a new exercise.</h5>
+		</div>
+
+		<div class="panel panel-default" id="question1">
+		  <div class="panel-heading">F&ouml;rsta fr&aring;gan (First question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r r&ouml;d?         
+		  <audio controls> <!--adds audio-->
+			<source src="sounds/rod.mp3" type="audio/mpeg">
+			</audio>
+			<!--adds images that can be clicked on-->
+			<p><input type="image" src="colors/orange-splash.png" id="orange1" width="300" height="300">
+			<input type="image" src="colors/red-splash.png" id="red1" width="300" height="300"></p>
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow1" width="300" height="300">
+			<input type="image" src="colors/blue-splash.png" id="blue1" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question2">
+		  <div class="panel-heading">Andra fr&aring;gan (Second question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r svart?
+		  <audio controls>
+			<source src="sounds/svart.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow2" width="300" height="300">
+			<input type="image" src="colors/green-splash.png" id="green2" width="300" height="300"></p>
+			<p><input type="image" src="colors/white-splash.png" id="white2" width="300" height="300">
+			<input type="image" src="colors/black-splash.png" id="black2" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question3">
+		  <div class="panel-heading">Tredje fr&aring;gan (Third question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r gul?         
+		  <audio controls>
+			<source src="sounds/gul.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow3" width="300" height="300">
+			<input type="image" src="colors/white-splash.png" id="white3" width="300" height="300">
+			<p><input type="image" src="colors/blue-splash.png" id="blue3" width="300" height="300">
+			<input type="image" src="colors/red-splash.png" id="red3" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question4">
+		  <div class="panel-heading">Fj&auml;rde fr&aring;gan (Fourth question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r bl&aring;?         
+		  <audio controls>
+			<source src="sounds/bla.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/orange-splash.png" id="orange4" width="300" height="300">
+			<input type="image" src="colors/blue-splash.png" id="blue4" width="300" height="300">
+			<p><input type="image" src="colors/green-splash.png" id="green4" width="300" height="300">
+			<input type="image" src="colors/black-splash.png" id="black4" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question5">
+		  <div class="panel-heading">Femte fr&aring;gan (Fifth question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r orange?         
+		  <audio controls>
+			<source src="sounds/orange.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/orange-splash.png" id="orange5" width="300" height="300">
+			<input type="image" src="colors/green-splash.png" id="green5" width="300" height="300"></p>
+			<p><input type="image" src="colors/red-splash.png" id="red5" width="300" height="300">
+			<input type="image" src="colors/white-splash.png" id="white5" width="300" height="300">
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question6">
+		  <div class="panel-heading">Sj&auml;tte fr&aring;gan (Sixth question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r gr&ouml;n?          
+		  <audio controls>
+			<source src="sounds/gron.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/blue-splash.png" id="blue6" width="300" height="300">
+			<input type="image" src="colors/black-splash.png" id="black6" width="300" height="300">
+			<p><input type="image" src="colors/yellow-splash.png" id="yellow6" width="300" height="300">
+			<input type="image" src="colors/green-splash.png" id="green6" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question7">
+		  <div class="panel-heading">Sjunde fr&aring;gan (Seventh question):</div>
+		  <div class="panel-body">Vilken av dessa f&auml;rger &auml;r vit?          
+		  <audio controls>
+			<source src="sounds/vit.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="colors/red-splash.png" id="red7" width="300" height="300">
+			<input type="image" src="colors/white-splash.png" id="white7" width="300" height="300">
+			<p><input type="image" src="colors/blue-splash.png" id="blue7" width="300" height="300">
+			<input type="image" src="colors/orange-splash.png" id="orange7" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question8">
+		  <div class="panel-heading">F&ouml;rsta fr&aring;gan (First question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en hund?         
+		  <audio controls>
+			<source src="sounds/hund.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dog.png" id="dog1" width="300" height="300">
+			<input type="image" src="animals/bird.png" id="bird1" width="300" height="300"></p>
+			<p><input type="image" src="animals/dolphin.png" id="dolphin1" width="300" height="300">
+			<input type="image" src="animals/cow.png" id="cow1" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question9">
+		  <div class="panel-heading">Andra fr&aring;gan (Second question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en katt?
+		  <audio controls>
+			<source src="sounds/katt.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dolphin.png" id="dolphin2" width="300" height="300">
+			<input type="image" src="animals/fish.png" id="fish2" width="300" height="300"></p>
+			<p><input type="image" src="animals/cat.png" id="cat2" width="300" height="300">
+			<input type="image" src="animals/horse.png" id="horse2" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question10">
+		  <div class="panel-heading">Tredje fr&aring;gan (Third question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en delfin?         
+		  <audio controls>
+			<source src="sounds/delfin.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dolphin.png" id="dolphin3" width="300" height="300">
+			<input type="image" src="animals/cat.png" id="cat3" width="300" height="300">
+			<p><input type="image" src="animals/cow.png" id="cow3" width="300" height="300">
+			<input type="image" src="animals/bird.png" id="bird3" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question11">
+		  <div class="panel-heading">Fj&auml;rde fr&aring;gan (Fourth question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en h&auml;st?         
+		  <audio controls>
+			<source src="sounds/hast.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dog.png" id="dog4" width="300" height="300">
+			<input type="image" src="animals/cow.png" id="cow4" width="300" height="300">
+			<p><input type="image" src="animals/fish.png" id="fish4" width="300" height="300">
+			<input type="image" src="animals/horse.png" id="horse4" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question12">
+		  <div class="panel-heading">Femte fr&aring;gan (Fifth question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en fisk?        
+		  <audio controls>
+			<source src="sounds/fisk.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/dog.png" id="dog5" width="300" height="300">
+			<input type="image" src="animals/fish.png" id="fish5" width="300" height="300"></p>
+			<p><input type="image" src="animals/bird.png" id="bird5" width="300" height="300">
+			<input type="image" src="animals/cat.png" id="cat5" width="300" height="300">
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question13">
+		  <div class="panel-heading">Sj&auml;tte fr&aring;gan (Sixth question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en ko?       
+		  <audio controls>
+			<source src="sounds/ko.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/cow.png" id="cow6" width="300" height="300">
+			<input type="image" src="animals/horse.png" id="horse6" width="300" height="300">
+			<p><input type="image" src="animals/dolphin.png" id="dolphin6" width="300" height="300">
+			<input type="image" src="animals/fish.png" id="fish6" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div>
+
+		<div class="panel panel-default" id="question14">
+		  <div class="panel-heading">Sjunde fr&aring;gan (Seventh question):</div>
+		  <div class="panel-body">Vilket av dessa djur &auml;r en f&aring;gel?         
+		  <audio controls>
+			<source src="sounds/fagel.mp3" type="audio/mpeg">
+			</audio>
+			<p><input type="image" src="animals/bird.png" id="bird7" width="300" height="300">
+			<input type="image" src="animals/cat.png" id="cat7" width="300" height="300">
+			<p><input type="image" src="animals/cow.png" id="cow7" width="300" height="300">
+			<input type="image" src="animals/dog.png" id="dog7" width="300" height="300"></p>
+			</p>
+		  </div>
+		</div> 
+
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script> <!--implements jQuery for shortcuts in expressions-->
+	<script type="text/javascript" src="js.js"></script> <!--implements our javascript file for functionality-->
+
+	</body>
+
+</html>
+

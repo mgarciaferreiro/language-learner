@@ -1,0 +1,100 @@
+body { /*general font size and settings of body*/
+	background: #87CEEB;
+	line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 25px;
+	margin: 30px;
+}
+/*style the pure buttons*/
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em; /*make space around the text*/
+    border-radius: 5px; /*make the edges round*/
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+h1 { /*style the titles, center them and put a shadow on them*/
+	color:#1f8dd6;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 2px 5px #7f8c8d;
+}
+#menu {
+	background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+	font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 10px 10px 10px #7f8c8d;
+
+}
+#galician {
+	position:fixed;
+	top: 45%;
+  	left: 30%;
+  	box-shadow: 10px 10px 10px #7f8c8d;
+}
+#galicianflag {
+	position:fixed;
+	top: 60%;
+  	left: 25%;
+}
+#swedish {
+	position:fixed;
+	top: 45%;
+  	right: 30%;
+  	box-shadow: 10px 10px 10px #7f8c8d;
+}
+#swedishflag {
+	position:fixed;
+	top: 60%;
+  	right: 25%;
+}
+#question1, #question2, #question3, #question4, #question5, #question6,#question7,#question8,#question9,#question10,#question11,#question12,#question13,#question14 {
+	display:none; /*this makes sure we can't see the next question until the js tells us we can*/
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*style each panel*/
+#wrong {
+	display:none;
+	float:right;
+	background:#FF6347;
+	margin: 20px;
+ 	padding: 0.5em 2em;
+ 	border-radius: 20px;
+ 	box-shadow: 10px 10px 10px #7f8c8d;
+}
+#correct {
+	display:none;
+	float:right;
+	background:#00FF7F;
+	margin: 20px;
+ 	padding: 0.5em 2em;
+ 	border-radius: 20px;
+ 	box-shadow: 10px 10px 10px #7f8c8d;
+}
+#success {
+	display:none;
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto; 
+	background:#00FF7F;
+ 	padding: 0.5em 2em;
+ 	border-radius: 20px;
+ 	box-shadow: 10px 10px 10px #7f8c8d;
+}
+
+.bold { /*make text in the other languages bold, to contrast with english*/
+	font-weight: bold;
+}
